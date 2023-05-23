@@ -46,7 +46,7 @@ class AppProvider extends ChangeNotifier {
         currentScreen = const ScreenHome();
         break;
       case CustomScreensEnum.profileScreen:
-        currentScreen = const MyAccount();
+        currentScreen = const ScreenMyAccount();
         break;
       case CustomScreensEnum.prizesScreen:
         currentScreen = const ScreenPrizes();

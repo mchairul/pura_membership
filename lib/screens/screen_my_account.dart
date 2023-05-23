@@ -3,8 +3,8 @@ import 'package:provider/provider.dart';
 
 import '../providers/app_provider.dart';
 
-class MyAccount extends StatelessWidget {
-  const MyAccount({Key? key}) : super(key: key);
+class ScreenMyAccount extends StatelessWidget {
+  const ScreenMyAccount({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
