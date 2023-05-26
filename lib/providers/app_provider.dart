@@ -24,7 +24,7 @@ class AppProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  late int _saldo = 100000;
+  int _saldo = 100000;
 
   void setSaldo(int saldo) {
     _saldo = saldo;
